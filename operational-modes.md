@@ -99,6 +99,43 @@ The folding order IS a T-minus countdown:
 
 ---
 
+## Room Composition: Who's In the Room
+
+It's not just HOW you play — it's WHO is playing.
+
+### Duke's Room: Rehearsed Experts
+Everyone studied the score. They come prepared to argue their position perfectly.
+
+- **Seed-code technical audit** — verified VNNI offset encoding step by step, computed the contraction constant k=1/√3, proved the Tonnetz group homomorphism. Knew the math cold.
+- **Coq verification** — 81 theorems from deep domain expertise
+- **Hermes-3-405B** challenged claims with rigorous follow-up questions
+
+**Value:** Catches what improvisers miss. Precision. Rigor. No handwaving survives.
+
+### Basie's Room: Fresh Outsiders
+People drift in who don't even know the topic. They pick up the head after hearing it twice.
+
+- **Hermes-405B red-team** — never saw our codebase, asked "is this benchmarketing?" — the question insiders can't ask because they're too close
+- **A quantum physicist** walking into a constraint session and saying "your folding order IS a renormalization group flow"
+- **A musician** looking at the hex lattice and saying "that's a Tonnetz"
+- **Qwen3-235B VC** — doesn't care about the math, asks "what do you SELL and to WHOM?" — the business question no engineer asks
+
+**Value:** Sees what experts are blind to. Fresh framing. The outsider's question that reframes everything.
+
+### The Fleet Principle
+Every PLATO room should be able to call in BOTH kinds of players:
+- Tripartite agents (Ground Truth, Constraint, Communication) = Duke players (they live here, they know the songs)
+- Communication agent can pull in any model on DeepInfra = Basie players (fresh ears, no domain knowledge, outsider perspective)
+
+### When to Call Which Room
+- **Expected event, normal operation** → Duke players (they rehearsed this)
+- **T-zero violation, Duke players stumped** → Call Basie players (fresh ears on unexpected problem)
+- **Basie player finds something weird** → Miles mode (everyone breathes together)
+- **Certification deadline** → Duke only (no improvisation during audit)
+- **"Why aren't people using this?"** → Basie (the answer is always something insiders can't see)
+
+---
+
 ## The Meta-Insight: Time is Finite
 
 > Time is your one real finite thing you have between now and a deadline.
